@@ -1,0 +1,115 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: gray;
+  overflow: hidden;
+}
+.map {
+  align-self: center;
+  justify-self: center;
+  width: 100vw;
+  height: 100vh;
+}
+.info {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.side {
+  height: 100%;
+  width: 10px;
+  color: white;
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #201c1c;
+  transition: 0.4s;
+}
+.cont {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+}
+.reset {
+  position: absolute;
+  bottom: 55px;
+  height: 35px;
+  width: 55px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  right: 55px;
+}
+.load {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  font-size: 50px;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #201c1c;
+  color: #366ccc;
+}
+.reset:hover {
+  cursor: pointer;
+  background-color: #366ccc;
+  color: white;
+}
+.expand {
+  margin: 10px 0px 0px 0px;
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  position: fixed;
+  z-index: 1;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #201c1c;
+}
+.conv{
+  display: flex;
+  gap: 5px;
+  margin-top: 25px;
+}
+.conv button{
+  height: 35px;
+  width: auto;
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.active{
+  background: #366ccc;
+  color: white;
+}
+.conv button:hover{
+  cursor: pointer;
+}
+.head {
+  font-size: 20px;
+  color: #366ccc;
+}
+.blue {
+  color: #366ccc;
+}
+.expand:hover {
+  cursor: pointer;
+  box-shadow: #366ccc 5px 0px 10px;
+}
+@media (max-width: 600px) {
+  .load {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
