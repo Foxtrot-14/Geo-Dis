@@ -8,6 +8,11 @@ Geo-Dis is a web application that utilizes the ArcGIS Web AppBuilder to measure 
 - **Interactive Map:** Integrates with the ArcGIS map for easy point selection and distance measurement.
 - **Modern Technologies:** Developed using React and TypeScript for a robust and type-safe application.
 
+## Live Endpoint:
+[http://98.70.9.184:8080/](http://98.70.9.184:8080/)
+
+## Demo Video:
+https://github.com/user-attachments/assets/26f83da3-05e2-4e9e-b0b8-d01622f8b2f0
 ## Prerequisites
 
 Before you get started, ensure you have the following installed:
