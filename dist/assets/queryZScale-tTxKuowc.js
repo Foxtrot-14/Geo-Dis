@@ -1,0 +1,1 @@
+import{bu as u}from"./index-xbq7LRAl.js";function s(o,f,e){if(!(e!=null&&e.features)||!e.hasZ)return;const t=u(e.geometryType,f,o.outSpatialReference);if(t!=null)for(const n of e.features)t(n.geometry)}export{s as t};
